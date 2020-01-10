@@ -85,9 +85,9 @@ while index < source_array.size do
   index += 1
 end
  if total.size = 1
-   return true
+   true
  else
-  return  false
+   false
  end
 
 end
