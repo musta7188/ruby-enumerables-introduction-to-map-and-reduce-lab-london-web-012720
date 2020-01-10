@@ -75,14 +75,20 @@ end
 
 def reduce_to_all_true(source_array)
 
- source_array.reduce {|n|
-   if n == 1
-     p true
-   else
-    p false
-   end
- }
+total = 0
 
+index = 0
+
+while index < source_array.size do
+  total += source_array[index]
+
+  index += 1
+end
+ if total.size = 1
+   return true
+ else
+  return  false
+ end
 
 end
 
