@@ -79,11 +79,11 @@ index = 0
 
 while index < source_array.size do
 
-return false if source_array[index]
+return true if source_array[index]
 
   index += 1
 end
-return true
+return false
 
 end
 
