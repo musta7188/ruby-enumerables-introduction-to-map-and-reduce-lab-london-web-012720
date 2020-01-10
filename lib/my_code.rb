@@ -79,9 +79,9 @@ index = 0
 
 while index < source_array.size do
 
-if !source_array[index]
+if source_array[index] != integer
   return false
-elsif source_array[index]
+elsif source_array[index] = integer
   return true
 end
 
