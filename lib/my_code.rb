@@ -81,7 +81,7 @@ while index < source_array.size do
 number = 5
 if !source_array[index].class === number.class
   return false
-elsif source_array[index].class === number.class
+else source_array[index].class === number.class
   return true
 end
 
