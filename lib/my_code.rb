@@ -81,7 +81,6 @@ while index < source_array.size do
 
 return false if source_array[index]
 
-end
   index += 1
 end
 return true
