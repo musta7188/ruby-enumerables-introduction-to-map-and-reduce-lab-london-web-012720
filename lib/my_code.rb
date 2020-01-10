@@ -78,16 +78,13 @@ def reduce_to_all_true(source_array)
 index = 0
 
 while index < source_array.size do
-number = 5
-if !source_array[index].class === number.class
-  return false
-else source_array[index].class === number.class
-   true
-end
 
+return false if source_array[index]
+
+end
   index += 1
 end
-
+return true
 
 end
 
