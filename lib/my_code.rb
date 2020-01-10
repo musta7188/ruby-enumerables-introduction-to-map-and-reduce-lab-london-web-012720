@@ -82,7 +82,7 @@ number = 5
 if !source_array[index].class === number.class
   return false
 else source_array[index].class === number.class
-  return true
+   true
 end
 
   index += 1
