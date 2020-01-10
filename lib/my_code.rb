@@ -79,10 +79,10 @@ index = 0
 
 while index < source_array.size do
 
-if source_array[index]
-  return true
-elsif !source_array[index]
+if !source_array[index]
   return false
+elsif source_array[index]
+  return true
 end
 
   index += 1
