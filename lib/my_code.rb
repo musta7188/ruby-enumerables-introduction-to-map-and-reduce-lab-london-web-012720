@@ -78,10 +78,10 @@ def reduce_to_all_true(source_array)
 index = 0
 
 while index < source_array.size do
-
-if !source_array[index].numeric?
+number = 5
+if !source_array[index].calss === number.class
   return false
-elsif source_array[index].numeric?
+elsif source_array[index].calss === number.class
   return true
 end
 
